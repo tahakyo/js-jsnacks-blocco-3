@@ -9,14 +9,16 @@ let element = 1;
 //     firstArray.push(element);
 //     console.log(firstArray, secondArray);
 // }
+
+
 while (firstArray.length < secondArray.length) {
     firstArray.push(element);
     console.log(firstArray, secondArray);
 } while (firstArray.length > secondArray.length) {
     secondArray.push(element);
-    console.log(firstArray, secondArray);
 };
 
+console.log(firstArray, secondArray);
 // function AppendArray(arr1, arr2){
 //     l1 = arr1.length;
 //     l2 = arr2.length;
