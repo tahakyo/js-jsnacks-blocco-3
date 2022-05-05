@@ -17,8 +17,7 @@ const soccerTeam = [
         fouls       : 0
     },
 ]
-
-
+// assegno i numeri random con foreach
 soccerTeam.forEach(team => {
     team.points = Math.floor(Math.random() * 100);
     team.fouls = Math.floor(Math.random() * 100);
